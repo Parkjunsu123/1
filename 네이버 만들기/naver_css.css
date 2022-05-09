@@ -1,0 +1,33 @@
+header{background-color: white;width: 100%; height: 100px;  padding-bottom: 10px;}
+header th{font-size: 10px; }
+header p{display: inline-block; font-size: 45px; margin-right:45px; position: relative; bottom: 10px; color: green;}
+header form{display: inline-block; margin-bottom: 50px;margin-left: 10%; position: relative; bottom: 20px; right: 100px; border: 2px solid green;}
+header input{display: inline-block; height:30px;position: relative; }
+header table{float: right;}
+header img{display: inline-block; margin-left: 10%;}
+header table{margin-right: 10%;}
+
+
+
+a{text-decoration-line: none; }f
+a:link { color: black; }
+a:visited { color: black; }
+
+aside table th{padding-right: 3px;}
+aside table{margin-left: 10%; display: inline-block;}
+.weather{display: inline-block; position: relative; margin-right: 10%; float: right;}
+.ad{display: inline-block;position: relative;margin-left: 10%;top: 10px; margin-bottom: 20px;}
+.ad img{width: 100%;height:100%;}
+.nav_title{margin-left: 10%;margin-bottom: 10px;}
+.news table{border-collapse: collapse;}
+.news td{padding: 10px;}
+.news{display: inline-block;margin-right: 30px;margin-left: 10%;}
+.news td{width: 100px; height: 50px;}
+.login{display: inline-block; position: relative;  float: right; right: 10%; bottom: 185px;}
+.login{border:1px solid black;}
+
+.b_article{ margin-left: 10%}
+
+footer{margin-left: 10%}
+footer table th{padding-right: 5px;color: gray;font-size: 5px;}
+.b_article th{padding-right: 100px;}    
