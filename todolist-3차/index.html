@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="all">
+    <div class="top">
+        <h1>My To Do List</h1>
+        <h2 class="clock">00:00:00</h2>
+    </div>
+    <div class="todo_div">
+        <form id="todo_form">
+            <!-- <input class="todo_date" type="date"> -->
+            <input class="todo_task" type="text" placeholder="나의 할일" required/>
+        </form>
+    </div>
+    <div class="main_content">
+        <h3>Today</h3>
+        <div class="today_todo_div">
+            <ul id="todoay_todo_ul"></ul>
+        </div>
+        <!-- <div class="plan">
+            <h3>Upcoming</h3>
+        </div> -->
+    </div>
+</div>
+    <script src="./clock.js"></script>
+    <script src="./todo.js"></script>
+</body>
+</html>
